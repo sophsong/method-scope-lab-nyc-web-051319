@@ -1,7 +1,8 @@
 require "spec_helper"
 def catch_phrase(phrase)
-  
-
+   phrase = "It's-a me, Mario!"
+puts phrase 
+end
 describe "#catch_phrase" do 
   it "puts out a catch phrase" do 
     phrase = "It's-a me, Mario!"
