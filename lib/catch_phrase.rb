@@ -1,6 +1,6 @@
 def catch_phrase(phrase)
   phrase = "It's-a me, Mario!"
-  return phrase
+  puts phrase
 end
 
 require "spec_helper"
